@@ -1,4 +1,4 @@
-import {BrowserRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 
 import {About, Contact, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from "./components";
 
@@ -6,7 +6,7 @@ import {About, Contact, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from 
 const App = () => {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="relatve z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
@@ -20,7 +20,7 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
