@@ -241,16 +241,16 @@ import {
       source_code_link: "https://zetao-wu.github.io/hibachi-buffet/",
     },
     {
-      name: "Youtube Clone",
+      name: "Pheats e-commerce",
       description:
-        "A Youtube Clone that was includes all basic features of the original website. Used RapidAPI to get necessary data and to ensure full functionality.",
+        "An e-commerce website focused on selling headphone/earbud products. Implemented full modern design and functionality of a e-commerce.",
       tags: [
         {
-          name: "rapidapi",
+          name: "ecommerce",
           color: "blue-text-gradient",
         },
         {
-          name: "mui",
+          name: "modern",
           color: "green-text-gradient",
         },
         {
@@ -259,7 +259,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://zetao-wu.github.io/youtube-clone/",
+      source_code_link: "https://zetao-wu.github.io/pheats/",
     },
   ];
   
